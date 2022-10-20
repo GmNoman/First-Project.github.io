@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+@media screen and (min-width: 400px) and (max-width:580px){
+    .logo {
+        padding : 0;
+    }
+    nav {
+        display:none ;
+    }
+    .maincont , .heading {
+        width: 20px;
+    }
+    
+}
+html {
+    font-family: 'poppins', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(238, 178, 67);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    position: relative;
+    top: 1.3rem;
+    right: 2rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+ul li {
+    font-weight: 900;
+}
+
+#goup {
+    width: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+#logo {
+    width: 95px;
+    padding-left: 3rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+/* .maincont {
+    width: 500px;
+    height:430px;
+    margin-left: 2rem;
+    
+
+
+} */
+.maincont {
+    background-image: url(images/undraw_predictive_analytics_re_wxt8.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 80vh;
+    /* padding: 1rem; */
+    position: relative;
+    left: 680px;
+    top: 2rem;
+}
+
+.heading {
+    position: relative;
+    right: 530px;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    top: 2rem;
+    color: #000000;
+
+}
